@@ -13,6 +13,6 @@ int main()
         else res = false;
     else if (abs(x) + abs(y) <= 2) res = true;
     else res = false;
-    if (res == true) cout << "Точка належить заштрихованій частині";
+    if (res) cout << "Точка належить заштрихованій частині";
     else cout << "Точка не належить заштрихованій частині";
 }
