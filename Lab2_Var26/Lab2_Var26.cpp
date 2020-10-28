@@ -6,7 +6,7 @@ int main()
     double x, y;
     cout << "Введіть координати точки\n";
     cin >> x >> y;
-    bool res = false;
+    bool res;
     if (x * x + y * y > 4) res = false;
     else if (x * y > 0)
         if (abs(x) + abs(y) >= 2) res = true;
