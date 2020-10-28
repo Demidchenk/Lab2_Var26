@@ -1,5 +1,6 @@
 print("Введіть координати точки");
-x, y = double(input()), double(input());
+x = float(input("x = ")), 
+y = float(input("y = "));
 if (x*x + y*y > 4):
     res = 0;
 elif (x*y > 0):
